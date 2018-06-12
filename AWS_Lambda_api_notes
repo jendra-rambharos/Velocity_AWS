@@ -6,3 +6,8 @@ repo location: https://github.com/spruke/
 
 aws call, not working for some iam reason
 aws lambda create-function --function-name "hello-world-2018-06-12" --runtime nodejs6.10 --role "arn:aws:lambda:us-east-2:408321236024:function:hello-world-2018-06-12:role/service-role/role-hello-world-2018-06-12" --handler "hello-world-advanced.handler" --description "numerical magic" --timeout 10 --memory-size 128 --zip-file fileb://.\helloworld-20180612.zip
+
+working aws create lambda function working
+aws lambda create-function --function-name "hello-world-2018-06-12_advanced" --runtime nodejs6.10 --role "arn:aws:iam::408321236024:role/service-role/role-hello-world-2018-06-12" --handler "hello-world-advanced.handler" --description "numerical magic" --timeout 10 --memory-size 128 --zip-file fileb://.\helloworld-20180612.zip
+
+aws apache velocity template language (for creating your own gateways) 
