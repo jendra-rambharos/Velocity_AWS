@@ -1,2 +1,8 @@
 AWS Lambda is known as on demand computing as a service or function as a service
 
+make sure language is supported, java, python, node, and 2 others i forgot
+
+repo location: https://github.com/spruke/
+
+aws call, not working for some iam reason
+aws lambda create-function --function-name "hello-world-2018-06-12" --runtime nodejs6.10 --role "arn:aws:lambda:us-east-2:408321236024:function:hello-world-2018-06-12:role/service-role/role-hello-world-2018-06-12" --handler "hello-world-advanced.handler" --description "numerical magic" --timeout 10 --memory-size 128 --zip-file fileb://.\helloworld-20180612.zip
