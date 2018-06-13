@@ -6,4 +6,6 @@ challenge with moving java to kubernetes is the monolithic nature of a java appl
 
 three things to consider going to kubernetes with java, value, risk, time
 
+ github.com/heptio/monolith
+
  
