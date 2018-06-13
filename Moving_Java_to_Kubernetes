@@ -1,0 +1,9 @@
+Kris Nova
+
+stateful applications in kubernetes
+
+challenge with moving java to kubernetes is the monolithic nature of a java applications
+
+three things to consider going to kubernetes with java, value, risk, time
+
+ 

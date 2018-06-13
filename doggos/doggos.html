@@ -22,7 +22,7 @@
 $(document).ready(function() {
     $('#retrieve').click(function () {
         $('#embed-tweet-here').empty();
-        $.get('https://3t2l2ug9si.execute-api.us-east-1.amazonaws.com/prod/doggos?rating='
+        $.get('https://iwepcxw56e.execute-api.us-east-2.amazonaws.com/prod?rating='
             + $('#rating').val())
             .done(function(json) {
                 let tweetNumber = json.tweet.match(/\/(\d+)$/)[1];
